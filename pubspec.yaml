@@ -12,6 +12,7 @@ dependencies:
   meta: 
   json_annotation: ^4.9.0  
   crypto: 
+  firedart:   
 
 dev_dependencies:
   build_runner: ^2.2.0
