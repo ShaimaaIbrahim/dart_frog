@@ -20,3 +20,7 @@ An example application built with dart_frog
 docker exec -it my_postgres psql -U postgres
 CREATE DATABASE my_new_database)
 5-install postico desktop to show postgreql ui queries and databases.
+
+///////////////////////////////////////////////////////
+*steps to perform caching:-
+1-platform called redis
