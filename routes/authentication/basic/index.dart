@@ -27,7 +27,11 @@ Future<Response> _createUser(RequestContext context) async{
 }
 
 // curl --request GET \
-// --url http://localhost:8080/authentication/basic/205f6d61222ba99a981db2faabaacd26f45b4ec6826b42087b20348de7f68a11 \
+// --url http://localhost:8080/authentication/bearer \
+// --header 'Content-Type: application/json' 
+
+// curl --request GET \
+// --url http://localhost:8080/authentication/basic \
 // --header 'Authorization: Basic c3RlZmY6MTIzNA=='
 
 // curl --request PATCH \
@@ -40,11 +44,11 @@ Future<Response> _createUser(RequestContext context) async{
 // }'
 
 // curl --request POST \
-// --url http://localhost:8080/authentication/basic \
+// --url http://localhost:8080/authentication/bearer \
 // --header 'Content-Type: application/json' \
 // --data '{
-// "name": "steff jone",
-// "username": "steff",
+// "name": "john john",
+// "username": "john",
 // "password": "1234"
 // }'
 
