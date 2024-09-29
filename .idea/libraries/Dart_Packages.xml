@@ -44,10 +44,24 @@
             </list>
           </value>
         </entry>
+        <entry key="bloc">
+          <value>
+            <list>
+              <option value="$USER_HOME$/.pub-cache/hosted/pub.dev/bloc-8.1.4/lib" />
+            </list>
+          </value>
+        </entry>
         <entry key="boolean_selector">
           <value>
             <list>
               <option value="$USER_HOME$/.pub-cache/hosted/pub.dev/boolean_selector-2.1.1/lib" />
+            </list>
+          </value>
+        </entry>
+        <entry key="broadcast_bloc">
+          <value>
+            <list>
+              <option value="$USER_HOME$/.pub-cache/hosted/pub.dev/broadcast_bloc-0.1.0-dev.2/lib" />
             </list>
           </value>
         </entry>
@@ -111,6 +125,13 @@
           <value>
             <list>
               <option value="$USER_HOME$/.pub-cache/hosted/pub.dev/built_value-8.9.2/lib" />
+            </list>
+          </value>
+        </entry>
+        <entry key="characters">
+          <value>
+            <list>
+              <option value="$USER_HOME$/.pub-cache/hosted/pub.dev/characters-1.3.0/lib" />
             </list>
           </value>
         </entry>
@@ -184,6 +205,13 @@
             </list>
           </value>
         </entry>
+        <entry key="dart_frog_web_socket">
+          <value>
+            <list>
+              <option value="$USER_HOME$/.pub-cache/hosted/pub.dev/dart_frog_web_socket-1.0.0/lib" />
+            </list>
+          </value>
+        </entry>
         <entry key="dart_style">
           <value>
             <list>
@@ -216,6 +244,13 @@
           <value>
             <list>
               <option value="$USER_HOME$/.pub-cache/hosted/pub.dev/fixnum-1.1.0/lib" />
+            </list>
+          </value>
+        </entry>
+        <entry key="flutter">
+          <value>
+            <list>
+              <option value="$USER_HOME$/Documents/development/flutter/packages/flutter/lib" />
             </list>
           </value>
         </entry>
@@ -352,6 +387,20 @@
             </list>
           </value>
         </entry>
+        <entry key="material">
+          <value>
+            <list>
+              <option value="$USER_HOME$/.pub-cache/hosted/pub.dev/material-1.0.0+2/lib" />
+            </list>
+          </value>
+        </entry>
+        <entry key="material_color_utilities">
+          <value>
+            <list>
+              <option value="$USER_HOME$/.pub-cache/hosted/pub.dev/material_color_utilities-0.11.1/lib" />
+            </list>
+          </value>
+        </entry>
         <entry key="meta">
           <value>
             <list>
@@ -481,7 +530,14 @@
         <entry key="shelf_web_socket">
           <value>
             <list>
-              <option value="$USER_HOME$/.pub-cache/hosted/pub.dev/shelf_web_socket-2.0.0/lib" />
+              <option value="$USER_HOME$/.pub-cache/hosted/pub.dev/shelf_web_socket-1.0.4/lib" />
+            </list>
+          </value>
+        </entry>
+        <entry key="sky_engine">
+          <value>
+            <list>
+              <option value="$USER_HOME$/Documents/development/flutter/bin/cache/pkg/sky_engine/lib" />
             </list>
           </value>
         </entry>
@@ -597,6 +653,13 @@
             </list>
           </value>
         </entry>
+        <entry key="vector_math">
+          <value>
+            <list>
+              <option value="$USER_HOME$/.pub-cache/hosted/pub.dev/vector_math-2.1.4/lib" />
+            </list>
+          </value>
+        </entry>
         <entry key="very_good_analysis">
           <value>
             <list>
@@ -625,17 +688,10 @@
             </list>
           </value>
         </entry>
-        <entry key="web_socket">
-          <value>
-            <list>
-              <option value="$USER_HOME$/.pub-cache/hosted/pub.dev/web_socket-0.1.6/lib" />
-            </list>
-          </value>
-        </entry>
         <entry key="web_socket_channel">
           <value>
             <list>
-              <option value="$USER_HOME$/.pub-cache/hosted/pub.dev/web_socket_channel-3.0.1/lib" />
+              <option value="$USER_HOME$/.pub-cache/hosted/pub.dev/web_socket_channel-2.4.0/lib" />
             </list>
           </value>
         </entry>
@@ -661,7 +717,9 @@
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/archive-3.6.1/lib" />
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/args-2.5.0/lib" />
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/async-2.11.0/lib" />
+      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/bloc-8.1.4/lib" />
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/boolean_selector-2.1.1/lib" />
+      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/broadcast_bloc-0.1.0-dev.2/lib" />
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/buffer-1.2.3/lib" />
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/build-2.4.1/lib" />
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/build_config-1.1.1/lib" />
@@ -671,6 +729,7 @@
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/build_runner_core-7.3.2/lib" />
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/built_collection-5.1.1/lib" />
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/built_value-8.9.2/lib" />
+      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/characters-1.3.0/lib" />
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/charcode-1.3.1/lib" />
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/checked_yaml-2.0.3/lib" />
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/clock-1.1.1/lib" />
@@ -681,6 +740,7 @@
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/crypto-3.0.5/lib" />
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/dart_frog-1.1.0/lib" />
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/dart_frog_auth-1.1.0/lib" />
+      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/dart_frog_web_socket-1.0.0/lib" />
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/dart_style-2.3.7/lib" />
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/equatable-2.0.5/lib" />
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/file-7.0.0/lib" />
@@ -705,6 +765,8 @@
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/logging-1.2.0/lib" />
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/macros-0.1.2-main.4/lib" />
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/matcher-0.12.16+1/lib" />
+      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/material-1.0.0+2/lib" />
+      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/material_color_utilities-0.11.1/lib" />
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/meta-1.15.0/lib" />
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/mime-1.0.6/lib" />
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/mocktail-1.0.4/lib" />
@@ -723,7 +785,7 @@
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/shelf_hotreload-1.5.0/lib" />
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/shelf_packages_handler-3.0.2/lib" />
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/shelf_static-1.1.3/lib" />
-      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/shelf_web_socket-2.0.0/lib" />
+      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/shelf_web_socket-1.0.4/lib" />
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/source_gen-1.5.0/lib" />
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/source_helper-1.3.4/lib" />
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/source_map_stack_trace-2.1.2/lib" />
@@ -740,15 +802,17 @@
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/timing-1.0.1/lib" />
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/typed_data-1.3.2/lib" />
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/unorm_dart-0.3.0/lib" />
+      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/vector_math-2.1.4/lib" />
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/very_good_analysis-5.1.0/lib" />
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/vm_service-14.2.5/lib" />
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/watcher-1.1.0/lib" />
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/web-1.0.0/lib" />
-      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/web_socket-0.1.6/lib" />
-      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/web_socket_channel-3.0.1/lib" />
+      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/web_socket_channel-2.4.0/lib" />
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/webkit_inspection_protocol-1.2.1/lib" />
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/yaml-3.1.2/lib" />
       <root url="file://$USER_HOME$/Documents/development/flutter/bin/cache/dart-sdk/pkg/_macros/lib" />
+      <root url="file://$USER_HOME$/Documents/development/flutter/bin/cache/pkg/sky_engine/lib" />
+      <root url="file://$USER_HOME$/Documents/development/flutter/packages/flutter/lib" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
