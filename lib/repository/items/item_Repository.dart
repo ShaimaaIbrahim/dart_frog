@@ -54,6 +54,18 @@ class TaskItemRepository {
     return itemDb[id];
   }
 
+  /// Get items by list id
+  Map<String, dynamic> getItemsByList(String listid) {
+    final formattedItems = <String, dynamic>{};
+    if (itemDb.isNotEmpty) {
+      itemDb.forEach((key, value) {
+        if (value.listId == listid) {
+          formattedItems[key] = value.toJson();
+        }
+      });
+    }
+    return formattedItems;
+  }
 
   Map<String, dynamic> getAllItems (){
     var formattedList = <String, dynamic>{};

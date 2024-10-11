@@ -11,19 +11,19 @@ Future<Response> onRequest(RequestContext context) {
   };
 }
 
-Future<Response> _getLoginStatus(RequestContext context) async{
-  final value = await context.read<Command>().send_object(
-      ['GET', 'loggedin'],
-  ).then((value) => value);
-  
-  if(value==null){
-    const status =0;
-    await context.read<Command>().send_object(
-      ['SET', 'loggedin', status]
-    );
+Future<Response> _getLoginStatus(RequestContext context) async {
+  final value = await context
+      .read<Command>()
+      .send_object(['GET', 'loggedin']).then((value) => value);
+
+  if (value == null) {
+    const status = 0;
+    await context.read<Command>().send_object(['SET', 'loggedin', status]);
     return Response(statusCode: HttpStatus.noContent);
-  }else{
-    return Response.json(body:  value.toString());
+  } else {
+    return Response.json(
+      body: {'success': true, 'message': int.parse(value.toString())},
+    );
   }
 }
 

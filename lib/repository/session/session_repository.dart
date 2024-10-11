@@ -42,7 +42,8 @@ class SessionRepository {
         token: generateToken(userId), 
         userId: userId, 
         expirationDate: DateTime.now().add(const Duration(hours: 24)),
-        createdAt: DateTime.now());
+        createdAt: DateTime.now()
+    );
     
     sessionDb[session.token] = session;
     return Future.value(session);

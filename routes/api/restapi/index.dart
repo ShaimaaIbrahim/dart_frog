@@ -12,11 +12,11 @@ Future<Response> onRequest(RequestContext context) {
 
 Future<Response> _getRecipie() async{
    final response = await http.get(
-       Uri.parse("https://rapidapi.com/dfskGT/api/low-carb-recipes"),
-       headers: {
-         'X-RapidAPI-Key': '',
-         'X-RapidAPI-Host': ''
-       }
+       Uri.parse("https://www.themealdb.com/api/json/v1/1/search.php?f=a"),
+       // headers: {
+       //   'X-RapidAPI-Key': '',
+       //   'X-RapidAPI-Host': ''
+       // }
    );
   if(response.statusCode==200){
     return Response.json(body: response.body);

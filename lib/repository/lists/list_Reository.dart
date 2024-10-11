@@ -47,12 +47,12 @@ class TaskListRepository {
   
   
   Map<String, dynamic> getAllList (){
-    var formattedList = <String, dynamic>{};
+    final formattedList = <String, dynamic>{};
     
-    listDb.forEach((String id) {
-     final currentList = listDb[id];
-     formattedList[id] = currentList?.toJson();
-    } as void Function(String key, TaskList value));
+    listDb.forEach((String id, TaskList list){
+      final currentList = listDb[id];
+      formattedList[id] = currentList?.toJson();
+    });
     return formattedList;
   }
   
@@ -62,7 +62,7 @@ class TaskListRepository {
     return id;
   }
   
-  void deleteTask(String id){
+  void deleteList(String id){
     listDb.remove(id);
   }
 
